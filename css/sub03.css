@@ -1,0 +1,411 @@
+@charset "UTF-8";
+
+
+
+img{
+  max-width: 100%;
+}
+.hide{
+  width:0; height:0;
+  font-size:0; line-height: 0;
+  position:absolute;
+  visibility: hidden;
+}
+
+/* header */
+header{
+  margin: 0 auto;
+  position: relative;
+  padding: 15px 0;
+  margin-bottom: 59px;
+} 
+
+header>div{
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header>div>h1{
+  text-align: center;
+  color: red;
+  font-size: 40px;
+}
+
+header>div>nav{
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+header>div>nav>ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header>div>nav>ul>li{
+  margin-right: 8px;
+}
+header>div>nav>ul>li>a{
+  color: #000;
+}
+
+header>div>.abc{
+  position:absolute;
+  right:0;
+  top: 12px;
+  padding:0;
+}
+header>div>.abc>ul{
+  display: flex;
+}
+header>div>.abc>ul>li{
+  margin-right: 8px;
+}
+header>div>.abc>ul>li>a{
+  color: #000;
+}
+
+header .btn{
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  width: 25px;
+  height: 25px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header .btn>span{
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+/* box01 */
+#box01{
+  width: 1520px;
+  margin: 0 auto 200px;
+}
+#box01>section{
+  display: flex;
+  justify-content: space-around;
+}
+#box01>section>figure>img{
+  margin-bottom: 100px;
+}
+#box01>section>figure>figcaption>ul{
+  display: flex;
+}
+#box01>section>figure>figcaption>ul>li{
+ 
+}
+#box01>section>figure>figcaption>ul>li>a>img{
+  width: 90%;
+}
+#box01>section>div{}
+#box01>section>div>header{}
+#box01>section>div>header>h1{
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+#box01>section>div>header>p{
+  font-size: 24px;
+}
+#box01>section>div>form{}
+#box01>section>div>form>fieldset{}
+#box01>section>div>form>fieldset>legend{}
+#box01>section>div>form>fieldset>p{
+  margin-bottom: 60px;
+}
+#box01>section>div>form>fieldset>p>label{}
+#box01>section>div>form>fieldset>p>input{
+  color: red;
+  font-size: 20px;
+}
+#box01>section>div>form>fieldset>dl{
+  display: flex;
+  margin-bottom: 80px;
+  border-top: 1px solid #000;
+}
+#box01>section>div>form>fieldset>dl>dt{
+  font-weight: bold;
+  margin-right: 5px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+#box01>section>div>form>fieldset>dl>dd{
+  margin-right: 20px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+#box01>section>div>form>fieldset>ul{}
+#box01>section>div>form>fieldset>ul>li{}
+#box01>section>div>form>fieldset>ul>li .NCC{
+  width: 450px;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+}
+#box01>section>div>form>fieldset>ul>li .etc{
+  
+}
+#box01>section>div>form>fieldset>ul>li>select>option{}
+#box01>section>div>form>fieldset>ul>li .slide{
+  width: 450px;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
+#box01>section>div>form>fieldset .asd{
+  margin-bottom: 40px;
+}
+#box01>section>div>form>fieldset .asd>span{
+  color: red;
+}
+#box01>section>div>form>fieldset .qwe{
+  margin-bottom: 100px;
+}
+#box01>section>div>form>fieldset .qwe>input{
+  width: 150px;
+  padding: 10px 10px;
+}
+
+#box01>section>div>form>fieldset .material-symbols-outlined{
+  margin-left: 20px;
+  font-size: 45px;
+  color: gray;
+  border: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* box02 */
+#box02{
+  width: 1520px;
+  margin: 0 auto 100px;
+}
+#box02>h1{
+  border-top: 1px solid #000;
+  margin-bottom: 50px;
+}
+#box02>section{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* box03 */
+#box03{
+  width: 1520px;
+  margin: 0 auto 100px;
+}
+#box03>h1{
+ font-size: 15px;
+ margin-bottom: 15px;
+ border-top: 1px solid #000;
+ padding-top: 40px;
+}
+#box03>article{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+#box03>article>ul{
+  
+ 
+}
+#box03>article>ul>li{
+ font-size: 13px;
+ margin-bottom: 10px;
+}
+
+
+
+
+
+/* box04 */
+#box04{
+  width: auto;
+  margin: 0 auto 100px;
+  
+}
+#box04>h1{
+  text-align: center;
+  font-size: 25px;
+  margin: 40px 0;
+}
+
+#box04>p{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+}
+#box04>article{
+  margin: 200px 0;
+  text-align: center;
+}
+
+/* box05 */
+
+#box05{
+  width: 1520px;
+  margin: 0 auto 200px;
+}
+#box05>p{
+  text-align: center;
+  color: red;
+  margin-bottom: 100px;
+}
+#box05>figure{
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+#box05>figure>img{
+  margin-bottom:40px;
+}
+#box05>figure>img.num{
+  width:40%;
+}
+#box05>figure>figcaption{}
+#box05>figure>figcaption>dl{
+  width: 800px;
+  margin: 0 auto;
+}
+#box05>figure>figcaption>dl>dt{
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+#box05>figure>figcaption>dl>dd{
+  line-height: 40px;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+
+/* box06 */
+#box06{
+  width: 1520px;
+  margin: 0 auto 200px;
+}
+
+#box06>figure{
+  display: flex;
+  justify-content: center;
+}
+#box06>.son{
+  margin-bottom: 80px;
+}
+#box06>.bt{ 
+  width: 1150px;
+  margin: 0 auto;
+}
+#box06>.bt>figcaption{
+  padding-top: 100px;
+}
+
+/* box07 */
+#box07{
+  width: 1520px;
+  margin: 0 auto 200px;
+}
+#box07>article{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#box07>article>section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+#box07>article>section>.size{
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+#box07>article>section>.size>dt{
+  color: red;
+  font-size: 25px;
+}
+#box07>article>section>.size>dd:last-child{
+  color: red;
+}
+#box07>article>section>.material{
+  line-height: 50px;
+}
+#box07>article>section>.material>dt{
+  color: red;
+  font-size: 25px;
+}
+#box07>article>section>.material>dd:last-child{
+  color: red;
+}
+
+#box07>ul{
+  width: 900px;
+  margin: 0 auto;
+}
+#box07>ul>li:first-child{
+  color: red;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+/* box08 */
+#box08{
+  width: 1520px;
+  margin: 0 auto 500px;
+}
+#box08>section{
+  display: flex;
+}
+#box08>section>figure{
+  width: 500px;
+  text-align: center;
+}
+#box08>section>figure>img{
+  margin-bottom: 20px;
+}
+#box08>section>figure>figcaption{
+  width: 270px;
+  margin: 0 auto;
+}
+#box08>section>figure>figcaption>dl{
+  text-align: center;
+  
+}
+#box08>section>figure>figcaption>dl>dt{
+  
+}
+#box08>section>figure>dl>dd{
+
+}
+#box08>h1{
+  padding: 10px 0;
+  font-size: 30px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 40px;
+}
+#box08>figure{
+
+}
+#box08>figure>img{}
+#box08>figure>figure{}
+#box08>figure>figure>dl{}
+#box08>figure>figure>dl>dt{}
+#box08>figure>figure>dl>dd{}

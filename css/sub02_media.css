@@ -1,0 +1,228 @@
+@charset "utf-8";
+@media screen and (min-width:1440px){
+  header>div{
+    position:relative;
+    box-sizing:border-box;
+    padding-left: 70px;
+  }
+  header>div>nav{
+    left: 70px;
+    top: 12px;
+  }
+}
+
+@media screen and (max-width:1439px) and (min-width:980px){
+  header>div{
+    position:relative;
+    box-sizing:border-box;
+    padding-left: 70px;
+  }
+  header>div>nav{
+    left: 70px;
+    top: 12px;
+  }
+  #box01{
+    width: 1440px;
+  }
+  #box02{
+    width: 1440px;
+  }
+  #box02>article>div>figure>img{
+    width: 573px;
+  }
+  #box02>article>div>figure>figcaption>dl{
+    width: 550px;
+  }
+}
+@media screen and (max-width:979px) and (min-width:580px){
+  /* header */
+  header{
+    background-color: #000;
+    padding:15px 0;
+   position: relative;
+  }
+  header>div{
+    width:88vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header>div>h1{
+    /* position: absolute; */
+  }
+  header>div>nav{
+    width:400px;
+    height:100%;
+    position:fixed;
+    /* left:0; */
+    left: -400px;
+    top:0;
+    background-color:red;
+  }
+  header>div>nav>ul{
+    display: flex;
+    flex-direction: column;
+  }
+  header>div>nav>ul>li{
+    border-bottom: 1px solid #fff;
+  }
+  header>div>nav>ul>li>a{
+    font-size: 20px;
+  }
+  header>div .abc{
+    position: static;
+  
+  }
+  header>div .abc>ul>li>a{
+    color: #fff;
+  }
+  header .btn{
+    position: absolute;
+    left: auto;
+    right: 10px;
+    top: 20px;
+  }
+  header .btn>span{
+    background-color: #fff;
+  }
+
+
+  /* box01 */
+ #box02>section>figure:nth-child(11){
+   display: none;
+ }
+ #box02>section>figure:nth-child(12){
+  display: none;
+ }
+ #box02>section>figure:nth-child(13){
+  display: none;
+ }
+ #box02>section>figure:nth-child(14){
+  display: none;
+ }
+ #box02>section>figure:nth-child(15){
+  display: none;
+ }
+ #box02>section>figure:nth-child(16){
+  display: none;
+ }
+ #box02>section>figure:nth-child(17){
+  display: none;
+ }
+ #box02>section>figure:nth-child(18){
+  display: none;
+ }
+ #box02>section>figure:nth-child(19){
+  display: none;
+ }
+ #box02>section>figure:nth-child(20){
+  display: none;
+ }
+}
+@media screen and (max-width:579px){
+    /* header */
+    header{
+      background-color: #000;
+      padding:15px 0;
+     position: relative;
+    }
+    header>div{
+      width:86vw;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header>div>h1{
+      /* position: absolute; */
+    }
+    header>div>nav{
+      width:200px;
+      height:24.5%;
+      position:fixed;
+      /* left:0; */
+      left: -400px;
+      top:0;
+      background-color:rgb(190, 180, 180);
+    }
+    header>div>nav>ul{
+      display: flex;
+      flex-direction: column;
+    }
+    header>div>nav>ul>li{
+      border-bottom: 1px solid #fff;
+      text-align: center;
+    }
+    header>div>nav>ul>li:last-child{
+      border-bottom: none;
+    }
+    header>div>nav>ul>li>a{
+      font-size: 20px;
+    }
+  
+    header>div>nav>.close{
+      position:absolute;
+      top:5px;
+      right:-35px;
+      width:30px;
+      height:30px;
+      background-color:rgb(116, 112, 112);
+    }
+  
+    header>div .abc{
+      position: static;
+    
+    }
+    header>div .abc>ul>li>a{
+      color: #fff;
+      font-size: 13px;
+    }
+    header .btn{
+      position: absolute;
+      left: auto;
+      right: 10px;
+      top: 20px;
+    }
+    header .btn>span{
+      background-color: #fff;
+    }
+
+
+
+
+/* box01 */
+#box02>section>figure:nth-child(11){
+  display: none;
+}
+#box02>section>figure:nth-child(12){
+ display: none;
+}
+#box02>section>figure:nth-child(13){
+ display: none;
+}
+#box02>section>figure:nth-child(14){
+ display: none;
+}
+#box02>section>figure:nth-child(15){
+ display: none;
+}
+#box02>section>figure:nth-child(16){
+ display: none;
+}
+#box02>section>figure:nth-child(17){
+ display: none;
+}
+#box02>section>figure:nth-child(18){
+ display: none;
+}
+#box02>section>figure:nth-child(19){
+ display: none;
+}
+#box02>section>figure:nth-child(20){
+ display: none;
+}
+
+
+
+
+
+}
