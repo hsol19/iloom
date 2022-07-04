@@ -83,6 +83,7 @@ header .btn{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
+  visibility: hidden;
 }
 header .btn>span{
   width: 100%;

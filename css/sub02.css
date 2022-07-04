@@ -2,9 +2,9 @@
 
 
 img{
-  /* max-width: 100%; */
-  width: 324px;
-  height: 324px;
+  max-width: 100%;
+  /* width: 324px;
+  height: 324px; */
 }
 /* header */
 header{
@@ -130,6 +130,7 @@ header .btn>span{
 }
 
 #box02>section>figure{
+  width:22%;
   margin-bottom: 60px;
 }
 #box02>section>figure>img{

@@ -201,8 +201,23 @@ header .btn>span{
   margin-bottom: 50px;
 }
 #box02>section{
+  width: 1520px;
   display: flex;
   justify-content: space-between;
+}
+#box02>section>figure{
+  width: 280px;
+}
+#box02>section>figure>figcaption{}
+#box02>section>figure>img{
+  margin-bottom: 20px;
+}
+#box02>section>figure>figcaption>dl{}
+#box02>section>figure>figcaption>dl>dt{
+  margin-bottom: 20px;
+}
+#box02>section>figure>figcaption>dl>dd{
+  color: red;
 }
 
 /* box03 */
