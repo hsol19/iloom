@@ -7,6 +7,7 @@
   <title>iloom_sub03</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/sub03.css">
+  <link rel="stylesheet" href="./css/sub03_media.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
@@ -66,10 +67,10 @@
     </figure>
 
     <div>
-    <header>
+    <article>
       <h1>캐스터네츠_C'ustom</h1>
       <p>커스텀 캣타워 (H)_콘도형(온라인몰 전용)</p>
-    </header>
+    </article>
 
     <form>
       <fieldset>
@@ -94,60 +95,63 @@
     
     
           <ul>
-            <li>
-              <select class="NCC">
-                <option class="etc" value="#">기본</option>
-                <option value="#">
-                  <span>[필수] 색상을 선택해주세요</span>
-                </option>
-                <option value="">
-                  <span><img src="./sub_images03/box01_04.png" alt="box01_04"></span>
-                  <span>NCCGY</span>
-                  <span>699,000원</span>
-                </option>
-              </select>
+            <li class="box01">
+              <dl class="NCC">
+                <dt>[필수] 색상을 선택해주세요</dt>
+                <dd>[필수] 색상을 선택해주세요</dd>
+                <dd>
+                <span>
+                <img src="./sub_images03/box01_04.png" alt="box01_04">
+                </span>
+                <span>NCCGY</span>
+                <span>699,000원</span>
+              </dd>
+              </dl>
             </li>
 
 
-            <li>
-              <select class="slide">
-              <option class="etc" value="#">[선택]커스텀 슬라이드(스크래쳐 포함)</option>
-              <option value="#">
-                <span>선택하지 않음</span>
-              </option>
-              <option value="#">
-                <span><img src="./sub_images03/box01_05.jpg" alt="box01_05"></span>
-                <span>커스텀 슬라이드(스크...)</span>
-                <span>130,000</span>
-              </option>
-            </select></li>
+            <li class="box02">
+              <dl class="slide">
+                <dt>[선택]커스텀 슬라이드(스크래쳐 포함)</dt>
+                <dd>[선택]커스텀 슬라이드(스크래쳐 포함)</dd>
+                <dd>선택하지 않음</dd>
+                <dd> 
+                  <span><img src="./sub_images03/box01_05.jpg" alt="box01_05"></span>
+                  <span>커스텀 슬라이드(스크...)</span>
+                  <span>130,000원</span>
+                </dd>
+              </dl>
+          </li>
           </ul>
      
           
-          <ul>
+          <ul class="priceAll">
             <li>
-              <span>[필수] 커스텀 캣타워(H)_콘도형(온라인몰 전용)</span>
-              <input type="text">
-              <span></span>
-              <button type="button">x</button>
+              <span class="title">[필수] 커스텀 캣타워(H)_콘도형(온라인몰 전용)</span>
+              <span class="plus">&lt;</span>
+              <input type="text" class="price">
+              <span class="plus">&gt;</span>
+              <button type="button" class="btn">x</button>
             </li>
     
             <li>
-              <span>[선택] 커스텀 캣타워(H)_콘도형(온라인몰 전용)</span>
-              <input type="text">
-              <span></span>
-              <button type="button">x</button>
+              <span class="title">[선택] 커스텀 캣타워(H)_콘도형(온라인몰 전용)</span>
+              <span class="plus">&lt;</span>
+              <input type="text" class="price">
+              <span class="plus">&gt;</span>
+              <button type="button"  class="btn">x</button>
             </li>
           </ul>
+
           <p class="asd">
           <label for="userAllPrice">총구매가</label>
-            <input type="text" id="userAllPrice">
+            <input type="text" id="userAllPrice" value="0">
             <span>원</span>
           </p>
 
       <p class="qwe">
-        <input type="submit">
-        <input type="button">
+        <input type="submit" value="결제하기">
+        <input type="button" value="장바구니">
         <a href="#"><span class="material-symbols-outlined">
           favorite
           </span></a>
@@ -163,6 +167,9 @@
   </section>
   </div>
 
+
+
+  
   <div id="box02">
     <h1>함께 본 제품 추천</h1>
       <section>
@@ -368,10 +375,10 @@
   </div>
 
 <div id="box06">
-  <figure class="son">
-    <img src="./sub_images03/box06_01.jpg" alt="">
-    <img src="./sub_images03/box06_02.jpg" alt="">
-  </figure>
+  <p class="son">
+    <img src="./sub_images03/box06_01.jpg" alt="box06_01">
+    <img src="./sub_images03/box06_02.jpg" alt="box06_02">
+  </p>
 
   <figure class="bt">
     <img src="./sub_images03/box06_03.jpg" alt="">
@@ -386,9 +393,9 @@
 
 <div id="box07">
   <article>
-  <figure>
+  <p>
     <img src="./sub_images03/box07.jpg" alt="">
-  </figure>
+  </p>
 
   <section>
   <dl class="size">

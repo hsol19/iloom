@@ -127,10 +127,7 @@ header .btn>span{
 }*/
 #box02>article>div>figure>figcaption{}
 #box02>article>div>figure>figcaption>dl{
-
   margin: 20px auto;
-
-
 }
 #box02>article>div>figure>figcaption>dl>dt{
   text-align: center;
