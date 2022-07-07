@@ -376,29 +376,38 @@ header .btn>span{
   width: 98%/* 1440px */;
   margin: 0 auto 100px;
 }
-#box03>h1{
+#box03>h3{
  font-size: 15px;
  margin-bottom: 15px;
  border-top: 1px solid #000;
- padding-top: 40px;
+ border-bottom: 1px solid #000;
+ padding: 20px 0;
 }
 #box03>article{
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-between;
   border-bottom: 1px solid #000;
   padding-bottom: 20px;
+  width:90%;
+  margin: 0 auto;
 }
-#box03>article>ul{
-  
- 
+#box03>article>dl{
+  width:50%;
+ overflow:hidden;
 }
-#box03>article>ul>li{
- font-size: 13px;
- margin-bottom: 10px;
+#box03>article>dl>dt{
+clear:both;
+float:left;
+margin-bottom:10px;
+padding-right:10px;}
+#box03>article>dl>dd{
+  float:left;
+  margin-bottom:10px;
 }
-
-
-
+#box03>article>dl>dd:before{
+  content:' : '
+}
 
 
 /* box04 */
@@ -420,8 +429,19 @@ header .btn>span{
   line-height: 40px;
 }
 #box04>article{
-  margin: 200px 0;
+  margin: 200px auto;
   text-align: center;
+  width: 560px;
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+#box04>article>iframe{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 /* box05 */
@@ -459,6 +479,7 @@ header .btn>span{
   line-height: 40px;
   font-size: 18px;
   margin-bottom: 100px;
+  text-align: justify;
 }
 
 
@@ -499,7 +520,6 @@ header .btn>span{
 }
 #box07>article>section{
   width: 34.72222222222222%/* 500px */;
-  
   display: flex;
   flex-direction: column;
   margin-left: 100px;
